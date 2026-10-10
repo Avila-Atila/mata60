@@ -1,0 +1,15 @@
+DROP SCHEMA IF EXISTS eventos CASCADE;
+CREATE SCHEMA eventos;
+SET search_path TO eventos;
+
+CREATE DOMAIN dm_pais AS CHAR(2)
+;
+
+CREATE DOMAIN dm_uf AS CHAR(2)
+;
+
+CREATE DOMAIN dm_valor AS NUMERIC(12,2)
+    CONSTRAINT ck_dm_valor CHECK (VALUE >= 0);
+
+CREATE DOMAIN dm_percentual AS NUMERIC(5,2)
+    CONSTRAINT ck_dm_percentual CHECK (VALUE BETWEEN 0 AND 100);
