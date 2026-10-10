@@ -128,7 +128,7 @@ FROM pg_constraint WHERE conrelid = 'eventos.tbl_pessoa'::regclass;
 ---
 
 ## 4. Anexos
-*(ATENÇÃO AUTOR: Anexar aqui os links do GitHub/Google Drive públicos contendo os arquivos .sql gerados na pasta `sql/`. Certifique-se de que não precisam de login).*
+https://github.com/Avila-Atila/mata60
 
 ### Tutorial de Reprodução
 1. Instalar o PostgreSQL 16+ e o pgAdmin4.
