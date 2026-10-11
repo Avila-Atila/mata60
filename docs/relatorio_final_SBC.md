@@ -1,6 +1,6 @@
 # TÍTULO DO PROJETO: EventOS - Sistema de Gestão de Eventos Acadêmicos
-**Autores**: 
-**Instituição**: 
+**Autores**: Átila Avila, Cleiton Ferreira, Lincon Brito, Thiago Coutinho
+**Instituição**: Universidade Federal da Bahia
 
 ## Resumo
 Este capítulo descreve a modelagem e implantação do banco de dados relacional EventOS, projetado para o gerenciamento do ciclo de vida de eventos acadêmicos. O estudo de caso abrange a organização, patrocínios, inscrições, atividades, fluxo financeiro, trabalhos científicos e certificação. A metodologia incluiu o levantamento de requisitos, modelagem conceitual (Peter Chen), lógica e a implantação física no PostgreSQL, seguindo o padrão de nomenclatura MAD e normas ISO/IEC 9075, além da geração de dados sintéticos via SQL.
